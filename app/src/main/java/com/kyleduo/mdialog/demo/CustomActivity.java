@@ -65,7 +65,7 @@ public class CustomActivity extends AppCompatActivity implements View.OnClickLis
 	}
 
 	private void showCustomDialog() {
-		new MDialog.Builder(this, R.layout.layout_dialog).setTitle("Custom Button").setMessage("Easily customize buttons in Dialog with background and text color.")
+		new MDialog.Builder(this, R.layout.layout_dialog).setTitle("Custom Dialog").setMessage("Customize MDialog with a new layout.xml file and use ids start with \"mdialog_\", everything changed with nothing change.\n:D")
 				.setPositiveButton("OK", null)
 				.setNegativeButton("Cancel", null)
 				.setCancelable(false)

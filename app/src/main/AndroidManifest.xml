@@ -20,7 +20,7 @@
 
 		<activity
 			android:name=".CompareActivity"
-			android:label="Compare"
+			android:label="Default style"
 			/>
 
 		<activity
