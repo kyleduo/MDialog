@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item name="mdialog_root" type="id"/>
+	<item name="mdialog_content_title_wrapper" type="id"/>
+	<item name="mdialog_title_tv" type="id"/>
+	<item name="mdialog_content_wrapper" type="id"/>
+	<item name="mdialog_message_tv" type="id"/>
+	<item name="mdialog_bt_wrapper" type="id"/>
+	<item name="mdialog_positive_bt" type="id"/>
+	<item name="mdialog_negative_bt" type="id"/>
+	<item name="mdialog_other_bt" type="id"/>
+</resources>

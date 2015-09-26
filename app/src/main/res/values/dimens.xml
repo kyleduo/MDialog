@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="base_corner_radius">3dp</dimen>
+	<dimen name="base_stroke_width">1dp</dimen>
+
+
+	<!-- dialog -->
+	<dimen name="dialog_title_text_size">18sp</dimen>
+	<dimen name="dialog_button_height">40dp</dimen>
+	<dimen name="dialog_title_padding_top">16dp</dimen>
+	<dimen name="dialog_corner_radius">6dp</dimen>
+	<dimen name="login_table_margin_top">60dp</dimen>
+	<dimen name="register_table_margin_top">60dp</dimen>
+
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+	>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:padding="16dp"
+		android:focusable="true"
+		android:focusableInTouchMode="true"
+		>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/introduction"/>
+
+		<EditText
+			android:id="@+id/et_title"
+			style="@style/MainEditText"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="8dp"
+			android:hint="Title of dialogs"
+			/>
+
+		<EditText
+			android:id="@+id/et_message"
+			style="@style/MainEditText"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="8dp"
+			android:hint="Message of dialogs"
+			/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="8dp"
+			android:text="buttons"/>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="bottom"
+			android:orientation="horizontal"
+			>
+
+			<EditText
+				android:id="@+id/et_other"
+				style="@style/MainEditText"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:hint="Other"
+				/>
+
+			<EditText
+				android:id="@+id/et_neg"
+				style="@style/MainEditText"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:hint="Negative"
+				/>
+
+
+			<EditText
+				android:id="@+id/et_pos"
+				style="@style/MainEditText"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:hint="Positive"
+				/>
+
+		</LinearLayout>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="16dp"
+			android:text="Click buttons below to show specific dialog."/>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:onClick="showMDialog"
+				android:text="MDialog"
+				android:textStyle="bold"/>
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:onClick="showSysDialog"
+				android:text="SysDialog"/>
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:onClick="showCompatDialog"
+				android:text="CompatDialog"/>
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

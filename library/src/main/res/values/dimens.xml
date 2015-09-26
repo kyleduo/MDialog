@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Default screen margins, per the Android Design guidelines. -->
+	<dimen name="activity_horizontal_margin">16dp</dimen>
+	<dimen name="activity_vertical_margin">16dp</dimen>
+
+	<dimen name="mdialog_min_width">240dp</dimen>
+	<dimen name="mdialog_content_space">24dp</dimen>
+	<dimen name="mdialog_content_min_height">32dp</dimen>
+	<dimen name="mdialog_title_content_space">20dp</dimen>
+	<dimen name="mdialog_button_wrapper_padding_horizontal">12dp</dimen>
+	<dimen name="mdialog_button_wrapper_padding_vertical">8dp</dimen>
+	<dimen name="mdialog_button_min_height">36dp</dimen>
+	<dimen name="mdialog_button_min_width">64dp</dimen>
+	<dimen name="mdialog_action_padding">8dp</dimen>
+	<dimen name="mdialog_action_inset_horizontal">4dp</dimen>
+	<dimen name="mdialog_action_inset_vertical">6dp</dimen>
+	<dimen name="mdialog_button_padding_horizontal">8dp</dimen>
+	<dimen name="mdialog_button_padding_vertical">2dp</dimen>
+	<dimen name="mdialog_message_padding_bottom">12dp</dimen>
+
+	<dimen name="base_round_corners_radius">3dp</dimen>
+
+	<dimen name="mdialog_text_title">20sp</dimen>
+	<dimen name="mdialog_text_message">14sp</dimen>
+	<dimen name="mdialog_text_bt">@dimen/mdialog_text_message</dimen>
+</resources>

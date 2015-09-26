@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:orientation="vertical"
+			  android:padding="8dp">
+
+	<Button
+		android:id="@+id/custom_button_bt"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Custom Button"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:text="Click this button to show a Dialog with custom buttons."/>
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:layout_marginTop="20dp"
+		android:background="#cccccc"
+		/>
+
+	<Button
+		android:id="@+id/custom_dialog_bt"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:text="Custom Dialog"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:text="Click this button to show a Dialog with whole custom style!"/>
+</LinearLayout>

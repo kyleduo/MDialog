@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@id/mdialog_root"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/mdialog_bg"
+	android:gravity="center"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:id="@id/mdialog_content_title_wrapper"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="left"
+		android:clickable="true"
+		android:orientation="vertical">
+
+		<TextView
+			android:id="@id/mdialog_title_tv"
+			style="@style/MDialog.Widget.Title"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:paddingLeft="@dimen/mdialog_content_space"
+			android:paddingRight="@dimen/mdialog_content_space"
+			android:paddingTop="@dimen/mdialog_content_space"/>
+
+		<LinearLayout
+			android:id="@id/mdialog_content_wrapper"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:minHeight="@dimen/mdialog_content_min_height"
+			android:orientation="vertical">
+
+			<TextView
+				android:id="@id/mdialog_message_tv"
+				style="@style/MDialog.Widget.Message"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingBottom="@dimen/mdialog_message_padding_bottom"
+				android:paddingLeft="@dimen/mdialog_content_space"
+				android:paddingRight="@dimen/mdialog_content_space"
+				android:paddingTop="@dimen/mdialog_title_content_space"/>
+
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@id/mdialog_bt_wrapper"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		android:gravity="right|center_vertical"
+		android:orientation="horizontal"
+		android:paddingBottom="@dimen/mdialog_button_wrapper_padding_vertical"
+		android:paddingLeft="@dimen/mdialog_button_wrapper_padding_horizontal"
+		android:paddingRight="@dimen/mdialog_button_wrapper_padding_horizontal"
+		android:paddingTop="@dimen/mdialog_button_wrapper_padding_vertical">
+
+		<Button
+			android:id="@id/mdialog_other_bt"
+			style="@style/MDialog.Widget.Button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/mdialog_button_other"/>
+
+		<Button
+			android:id="@id/mdialog_negative_bt"
+			style="@style/MDialog.Widget.Button"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/mdialog_button_negtive"/>
+
+		<Button
+			android:id="@id/mdialog_positive_bt"
+			style="@style/MDialog.Widget.Button.Primary"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/mdialog_button_positive"/>
+	</LinearLayout>
+
+</LinearLayout>

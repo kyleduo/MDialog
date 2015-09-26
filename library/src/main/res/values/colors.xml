@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="mdialog_title_text">#242424</color>
+	<color name="mdialog_body_text">#757575</color>
+	<color name="mdialog_button_bg_color">#22000000</color>
+</resources>

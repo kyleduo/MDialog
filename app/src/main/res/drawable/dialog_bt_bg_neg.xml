@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+	   android:insetBottom="@dimen/mdialog_action_inset_horizontal"
+	   android:insetLeft="@dimen/mdialog_action_inset_horizontal"
+	   android:insetRight="@dimen/mdialog_action_inset_horizontal"
+	   android:insetTop="@dimen/mdialog_action_inset_horizontal"
+	>
+	<selector>
+		<item android:state_pressed="true">
+			<shape>
+				<corners android:radius="@dimen/base_corner_radius"/>
+				<solid android:color="@android:color/transparent"/>
+				<stroke
+					android:width="@dimen/base_stroke_width"
+					android:color="#A6BBCC"/>
+				<padding
+					android:left="2dp"
+					android:right="2dp"/>
+			</shape>
+		</item>
+		<item>
+			<shape>
+				<corners android:radius="@dimen/base_corner_radius"/>
+				<solid android:color="@android:color/transparent"/>
+				<stroke
+					android:width="@dimen/base_stroke_width"
+					android:color="#637481"/>
+				<padding
+					android:left="2dp"
+					android:right="2dp"/>
+			</shape>
+		</item>
+	</selector>
+</inset>

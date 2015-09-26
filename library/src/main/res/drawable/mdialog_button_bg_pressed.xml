@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+	   android:insetBottom="@dimen/mdialog_action_inset_horizontal"
+	   android:insetLeft="@dimen/mdialog_action_inset_horizontal"
+	   android:insetRight="@dimen/mdialog_action_inset_horizontal"
+	   android:insetTop="@dimen/mdialog_action_inset_horizontal"
+	>
+
+	<shape>
+		<solid android:color="@color/mdialog_button_bg_color"/>
+		<corners android:radius="@dimen/base_round_corners_radius"/>
+		<padding
+			android:left="@dimen/mdialog_button_padding_horizontal"
+			android:right="@dimen/mdialog_button_padding_horizontal"
+			/>
+	</shape>
+
+</inset>

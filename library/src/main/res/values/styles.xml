@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="MDialog.Dialog" parent="android:Theme.Dialog">
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowIsFloating">true</item>
+	</style>
+
+	<style name="MDialog">
+
+	</style>
+
+	<style name="MDialog.Widget">
+	</style>
+
+	<style name="MDialog.Widget.TextView">
+
+	</style>
+
+	<style name="MDialog.Widget.Title" parent="MDialog.Widget.TextView">
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">18sp</item>
+		<item name="android:textColor">@color/mdialog_title_text</item>
+	</style>
+
+	<style name="MDialog.Widget.Message">
+		<item name="android:textSize">16sp</item>
+		<item name="android:textColor">@color/mdialog_body_text</item>
+	</style>
+
+	<style name="MDialog.Widget.Button" parent="Base.Widget.AppCompat.Button.ButtonBar.AlertDialog">
+		<item name="android:textColor">@color/mdialog_title_text</item>
+		<item name="android:background">@drawable/mdialog_button_bg</item>
+	</style>
+
+	<!-- 主要button -->
+	<style name="MDialog.Widget.Button.Primary">
+		<item name="android:textColor">?colorAccent</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+</resources>

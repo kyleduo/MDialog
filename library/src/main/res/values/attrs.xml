@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="MDialog">
+		<attr name="button_background" format="reference"/>
+		<attr name="button_background_primary" format="reference"/>
+	</declare-styleable>
+</resources>
