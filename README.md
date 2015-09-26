@@ -15,6 +15,13 @@ These screenshots are from Android 4.4. You can see the comfortable style with M
 
 ### Easy to use.
 
+Use with Gradle. (___Available soon.___)
+```
+dependencies {
+    compile 'com.kyleduo.mdialog:library:1.0.1'
+}
+```
+
 To create a MDialog is such simple that you can just change 'AlertDialog' to 'MDialog'. This is a piece of demo code.
 
 ```

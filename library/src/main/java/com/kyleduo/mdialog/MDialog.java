@@ -138,9 +138,9 @@ public class MDialog extends Dialog {
 		}
 
 		/**
-		 * 设置对话框在点击按钮的时候，自动dismiss
+		 * dismiss dialog when click buttons
 		 *
-		 * @param autoDismiss 应用于全部按钮
+		 * @param autoDismiss apply to all button
 		 * @return
 		 */
 		public Builder setAutoDismiss(boolean autoDismiss) {
@@ -148,11 +148,11 @@ public class MDialog extends Dialog {
 		}
 
 		/**
-		 * 设置对话框在点击按钮的时候，自动dismiss
+		 * dismiss dialog when click specific button
 		 *
-		 * @param posAutoDismiss   POS按钮
-		 * @param negAutoDismiss   NEG按钮
-		 * @param otherAutoDismiss OTHER按钮
+		 * @param posAutoDismiss   positive button
+		 * @param negAutoDismiss   negative button
+		 * @param otherAutoDismiss other button
 		 * @return
 		 */
 		public Builder setAutoDismiss(boolean posAutoDismiss, boolean negAutoDismiss, boolean otherAutoDismiss) {
@@ -163,7 +163,7 @@ public class MDialog extends Dialog {
 		}
 
 		/**
-		 * 设置标题最多有几行
+		 * max lines of title
 		 *
 		 * @param lines
 		 * @return
