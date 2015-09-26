@@ -37,22 +37,22 @@ By default, MDialog set positive button's text color with `?accentColor` of curr
 
 For enhancement, The `MDialog.Builder` provides more APIs for developers customizing behaviours of dialog.
 
-```
-setAutoDismiss(boolean); // true, auto dismiss when click buttons
-setAutoDismiss(boolean, boolean, boolean) // same as setAutoDismiss(boolean); but set the properties for each button (pos, neg, other)
-setTitlemaxLines(int); // max lines of title TextView
-```
+
+- **setAutoDismiss(boolean);** // true, auto dismiss when click buttons
+- **setAutoDismiss(boolean, boolean, boolean);** // same as setAutoDismiss(boolean); but set the properties for each button (pos, neg, other)
+- **setTitlemaxLines(int);** // max lines of title TextView
+
 
 ### Easy to customize.
 
 These APIs are for button styles.
 
-```
-setNormalButtonBackgroundRes(int) // background resource id for negative and other button
-setPrimaryButtonBackgroundRes(int) // background resource id for positive button
-setNormalButtonTextColor(int) // text color for negative and other button
-setPrimaryButtonTextColor(int) // text color for positive button
-```
+
+- **setNormalButtonBackgroundRes(int);** // background resource id for negative and other button
+- **setPrimaryButtonBackgroundRes(int);** // background resource id for positive button
+- **setNormalButtonTextColor(int);** // text color for negative and other button
+- **setPrimaryButtonTextColor(int);** // text color for positive button
+
 
 MDialog provides a more useful way to customize the whole appearance of dialog. Just use constructor below and put your custom layout res id into it.
 
