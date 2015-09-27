@@ -15,7 +15,7 @@ These screenshots are from Android 4.4. You can see the comfortable style with M
 
 ### Easy to use.
 
-Use with Gradle. (___Available soon.___)
+Use with Gradle.
 ```
 dependencies {
     compile 'com.kyleduo.mdialog:library:1.0.1'
