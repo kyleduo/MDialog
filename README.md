@@ -1,5 +1,7 @@
 # MDialog
 
+[中文(Blog)](http://kyleduo.com/?p=611)
+
 **MDialog** is a library of Material Design like and easy-use dialog with **more user-friendly appearance**.
 
 - More user-friendly appearance.
