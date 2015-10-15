@@ -45,13 +45,14 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 				Intent intent = new Intent(Intent.ACTION_VIEW);
 				intent.setData(Uri.parse("http://kyleduo.com"));
 				startActivity(intent);
+				break;
 			}
 			case 3: {
 				Intent intent = new Intent(Intent.ACTION_VIEW);
 				intent.setData(Uri.parse("http://weibo.com/u/1762403573"));
 				startActivity(intent);
+				break;
 			}
-			break;
 		}
 	}
 }
