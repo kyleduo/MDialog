@@ -2,6 +2,7 @@
 *.apk
 *.ap_
 .idea/
+gradle.properties
 
 # Files for the Dalvik VM
 *.dex
